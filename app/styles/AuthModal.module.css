@@ -1,0 +1,61 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade 0.3s ease;
+}
+
+.modal {
+    background: #0c1b25;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    color: white;
+    animation: scale 0.3s ease;
+}
+
+.closeBtn {
+    float: right;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 10px;
+    background: #13daec;
+    border: none;
+}
+
+.switch p {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: #13daec;
+}
+
+/* Animations */
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes scale {
+    from { transform: scale(0.9); }
+    to { transform: scale(1); }
+}

@@ -1,0 +1,89 @@
+.page {
+    min-height: 100vh;
+    transition: filter 0.3s ease;
+}
+
+.blurred {
+    filter: blur(6px);
+    pointer-events: none;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgba(6,13,20,0.9);
+}
+
+.navBtn {
+    background: #13daec;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    padding: 60px;
+    min-height: 80vh;
+}
+
+.heroBg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, #0b3c4a, transparent);
+}
+
+.heroGrid {
+    position: absolute;
+    inset: 0;
+    background-size: 60px 60px;
+}
+
+.heroMap {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: url('/srilanka_map.png') center/cover;
+    opacity: 0.4;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+}
+
+.heroTitle {
+    font-size: 3rem;
+}
+
+.heroSub {
+    margin-top: 10px;
+}
+
+.ctaBtn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #13daec;
+    border: none;
+    cursor: pointer;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+    .hero {
+        padding: 30px;
+    }
+
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .heroMap {
+        display: none;
+    }
+}
