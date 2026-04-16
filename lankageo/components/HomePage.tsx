@@ -90,6 +90,16 @@ export default function HomePage() {
                 </div>
             </section>
 
+            {/* FOOTER */}
+            <footer className={styles.footerWrap}>
+                <div className={styles.footer}>
+                    <div className={styles.footerBrand}>
+                        <img src="/logo.png" alt="LankaGeo" style={{ height: '54px', width: 'auto', objectFit: 'contain', marginBottom: '14px' }} />
+                        <p className={styles.footerBrandText}>
+                            Precision SAR satellite monitoring for Sri Lanka&apos;s high-risk regions. Real-time penetration through dense cloud cover for disaster mitigation.
+                        </p>
+                    </div>
+            </footer>
 
 
         </div>
