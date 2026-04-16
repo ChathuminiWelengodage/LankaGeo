@@ -63,6 +63,32 @@ export default function HomePage() {
                         Lanka Geo delivers high-precision flood analysis to support disaster response and regional safety across Sri Lanka. By transforming complex satellite telemetry into simple, data-driven reports, we empower the Disaster Management Center and local communities to act quickly and effectively during environmental crises.
                     </p>
                 </div>
+                <div className={styles.aboutRight}>
+                    <div className={`${styles.card} ${styles.cardHalf}`}>
+                        <div className={styles.cardIcon}>📡</div>
+                        <h3 className={styles.cardTitle}>Advanced SAR Monitoring</h3>
+                        <p className={styles.cardText}>
+                            Uses advanced Radar technology to see through heavy rain, clouds, and darkness, providing clear flood maps even during the worst monsoon storms.
+                        </p>
+                    </div>
+                    <div className={`${styles.card} ${styles.cardHalf}`}>
+                        <div className={styles.cardIcon}>⚠</div>
+                        <h3 className={styles.cardTitle}>Real-time Risk Assessment</h3>
+                        <p className={styles.cardText}>
+                            Automated analysis pipelines that identify vulnerabilities and flood risks as they emerge.
+                        </p>
+                    </div>
+                    <div className={`${styles.card} ${styles.cardFull}`}>
+                        <div className={styles.cardIcon}>⚡</div>
+                        <div className={styles.cardFullContent}>
+                            <h3 className={styles.cardTitle}>Agile Response Coordination</h3>
+                            <p className={styles.cardText}>
+                                Turning complex satellite images into clear, actionable maps and reports to help Sri Lankan emergency teams respond to floods faster.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
