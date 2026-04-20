@@ -99,9 +99,31 @@ export default function HomePage() {
                             Precision SAR satellite monitoring for Sri Lanka&apos;s high-risk regions. Real-time penetration through dense cloud cover for disaster mitigation.
                         </p>
                     </div>
+                    <div className={styles.footerCol}>
+                        <h4 className={styles.footerColHead}>Platform</h4>
+                        <a className={styles.footerLink} href="#">Analysis</a>
+                        <a className={styles.footerLink} href="#">Risk Maps</a>
+                        <a className={styles.footerLink} href="#">Reports</a>
+                    </div>
+                    <div className={styles.footerCol}>
+                        <h4 className={styles.footerColHead}>Agency</h4>
+                        <a className={styles.footerLink} href="#">Login</a>
+                    </div>
+                    <div className={styles.footerCol}>
+                        <h4 className={styles.footerColHead}>Legal</h4>
+                        <a className={styles.footerLink} href="#">Privacy Policy</a>
+                        <a className={styles.footerLink} href="#">Terms of Service</a>
+                    </div>
+                </div>
+                <div className={styles.footerBottom}>
+                    <p className={styles.copyright}>© 2026 LankaGeo Agency Intelligence Platform.</p>
+                    <div className={styles.statusDot}>
+                        <span className={styles.dot} />
+                        System Status
+                    </div>
+                </div>
+
             </footer>
-
-
         </div>
     );
 }
