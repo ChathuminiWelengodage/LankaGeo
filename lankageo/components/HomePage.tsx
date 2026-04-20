@@ -122,6 +122,7 @@ export default function HomePage() {
                         System Status
                     </div>
                 </div>
+                
             </footer>
         </div>
     );
