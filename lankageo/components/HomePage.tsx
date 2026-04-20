@@ -121,8 +121,7 @@ export default function HomePage() {
                         <span className={styles.dot} />
                         System Status
                     </div>
-                </div>
-                
+                </div>             
             </footer>
         </div>
     );
